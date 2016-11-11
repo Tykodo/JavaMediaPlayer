@@ -1,4 +1,4 @@
-package view;
+package view.frames;
 
 public class PlayerFrame extends javax.swing.JFrame {
 
@@ -46,7 +46,6 @@ public class PlayerFrame extends javax.swing.JFrame {
         aboutButton = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(432, 454));
         setMinimumSize(new java.awt.Dimension(432, 454));
         setResizable(false);
 
@@ -73,25 +72,25 @@ public class PlayerFrame extends javax.swing.JFrame {
         playerPanel.setMinimumSize(new java.awt.Dimension(0, 0));
         playerPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        playButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/play.png"))); // NOI18N
+        playButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/play.png"))); // NOI18N
         playButton.setBorderPainted(false);
         playButton.setContentAreaFilled(false);
         playButton.setFocusPainted(false);
         playerPanel.add(playButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(64, 0, 64, 64));
 
-        nextButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/next.png"))); // NOI18N
+        nextButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/next.png"))); // NOI18N
         nextButton.setBorderPainted(false);
         nextButton.setContentAreaFilled(false);
         nextButton.setFocusPainted(false);
         playerPanel.add(nextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(104, 0, 64, 64));
 
-        previousButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/previous.png"))); // NOI18N
+        previousButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/previous.png"))); // NOI18N
         previousButton.setBorderPainted(false);
         previousButton.setContentAreaFilled(false);
         previousButton.setFocusPainted(false);
         playerPanel.add(previousButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 0, 64, 64));
 
-        randomButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/random_on.png"))); // NOI18N
+        randomButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/random_off.png"))); // NOI18N
         randomButton.setBorderPainted(false);
         randomButton.setContentAreaFilled(false);
         randomButton.setFocusPainted(false);
@@ -100,7 +99,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         randomButton.setPreferredSize(new java.awt.Dimension(32, 32));
         playerPanel.add(randomButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 30, 30));
 
-        loopButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/loop_on.png"))); // NOI18N
+        loopButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/loop_on.png"))); // NOI18N
         loopButton.setBorderPainted(false);
         loopButton.setContentAreaFilled(false);
         loopButton.setFocusPainted(false);
@@ -109,7 +108,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         loopButton.setPreferredSize(new java.awt.Dimension(32, 32));
         playerPanel.add(loopButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 30, 30));
 
-        syncButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/sync.png"))); // NOI18N
+        syncButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/sync.png"))); // NOI18N
         syncButton.setBorderPainted(false);
         syncButton.setContentAreaFilled(false);
         syncButton.setFocusPainted(false);
@@ -118,7 +117,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         syncButton.setPreferredSize(new java.awt.Dimension(32, 32));
         playerPanel.add(syncButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 30, 30));
 
-        paramsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/params.png"))); // NOI18N
+        paramsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/params.png"))); // NOI18N
         paramsButton.setBorderPainted(false);
         paramsButton.setContentAreaFilled(false);
         paramsButton.setFocusPainted(false);
@@ -127,12 +126,9 @@ public class PlayerFrame extends javax.swing.JFrame {
         paramsButton.setPreferredSize(new java.awt.Dimension(32, 32));
         playerPanel.add(paramsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 30, 30));
 
-        coverLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pic/cover.png"))); // NOI18N
+        coverLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/pic/cover.png"))); // NOI18N
         coverLabel.setToolTipText("");
         coverLabel.setFocusable(false);
-        coverLabel.setMaximumSize(new java.awt.Dimension(100, 100));
-        coverLabel.setMinimumSize(new java.awt.Dimension(100, 100));
-        coverLabel.setPreferredSize(new java.awt.Dimension(100, 100));
 
         titleLabel.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         titleLabel.setText(" ");

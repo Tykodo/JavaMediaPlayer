@@ -1,0 +1,1 @@
+Pour modifier le diagramme UML, allez sur https://www.draw.io/ et ouvrir le fichier xml
